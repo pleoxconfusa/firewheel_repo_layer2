@@ -20,4 +20,4 @@ files:
     sha256: "b126333e5fc21d97ceda0ca1b839093657aa4a0f90d5fca198359b583314e54d"
 
 required_files:
-  - destination: "{{ vm_resources_dir }}/openvswitch-switch.tgz"
+  - destination: "{{ download_dir }}/openvswitch-switch.tgz"
