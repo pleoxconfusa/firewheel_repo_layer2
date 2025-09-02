@@ -1,6 +1,6 @@
 ---
 install_flag: "{{ mc_dir }}/.layer2.ovs.installed"
-vm_resources_dir: "{{ mc_dir }}/vm_resources"
+download_dir: "{{ mc_dir }}/vm_resources"
 parents:
   - name: "ovs"
     tarball: "openvswitch-switch.tgz"
