@@ -1,5 +1,4 @@
 ---
-install_flag: "{{ mc_dir }}/.layer2.ovs.installed"
 download_dir: "{{ mc_dir }}/vm_resources"
 parents:
   - name: "ovs"
